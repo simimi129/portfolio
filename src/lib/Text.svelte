@@ -3,7 +3,7 @@
     Hello! My name is Simon. I'm a computer science student and software
     engineer. I love programming, problem solving, and studying new and modern
     technologies. I'm also a team player, and find it very important to learn
-    from and teach others, communication is key.
+    from and teach others.
   </p>
   <p>
     I can design and develop maintainable and scalable web and mobile

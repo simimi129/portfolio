@@ -1,7 +1,3 @@
-<script>
-  import Time from "./Time.svelte";
-</script>
-
 <div class="timeline">
   <div class="header">
     <span class="header-title">Work</span>
@@ -18,7 +14,9 @@
       <div class="work">
         <div class="work-title">Capture.europe</div>
         <div class="work-type">Full-stack web developer</div>
-        <div class="work-description">Java backend and Angular frontend</div>
+        <div class="work-description">
+          Java backend, Angular frontend, Oracle and PostgreSQL database
+        </div>
       </div>
       <div class="year" />
       <div class="education">

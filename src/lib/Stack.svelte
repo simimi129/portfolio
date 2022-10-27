@@ -1,10 +1,5 @@
 <div class="exp-stack-bar">
-  <!-- <div class="exp">
-    <span class="years">1 years</span>
-    <span>of experience</span>
-  </div> -->
   <div class="stack">
-    <!-- <span>Techonolgy Stack:</span> -->
     <div class="stack-items">
       <div class="stack-item">
         <i class="devicon-html5-plain" />
@@ -39,28 +34,12 @@
         <span>Swift</span>
       </div>
       <div class="stack-item">
-        <i class="devicon-python-plain" />
-        <span>Python</span>
-      </div>
-      <div class="stack-item">
-        <i class="devicon-csharp-plain" />
-        <span>C#</span>
-      </div>
-      <div class="stack-item">
         <i class="devicon-java-plain" />
         <span>Java</span>
       </div>
       <div class="stack-item">
         <i class="devicon-spring-plain" />
         <span>Spring</span>
-      </div>
-      <div class="stack-item">
-        <i class="devicon-mongodb-plain" />
-        <span>MongoDB</span>
-      </div>
-      <div class="stack-item">
-        <i class="devicon-postgresql-plain" />
-        <span>Postgre</span>
       </div>
       <div class="stack-item">
         <i class="devicon-git-plain" />
@@ -90,25 +69,11 @@
     width: 100%;
   }
 
-  /* .stack span {
-    min-width: 180px;
-  } */
-
   .stack {
     display: flex;
     align-items: center;
     flex-grow: 1;
   }
-
-  /* .years {
-    font-size: 1.6rem;
-  }
-
-  .exp {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  } */
 
   .exp-stack-bar {
     width: 100%;
