@@ -50,7 +50,7 @@
         <div class="education-description">
           Studied component-based frontend frameworks: Svelte, React, Angular
           and Node.js for backend. I used MongoDB for database. Also Git. I was
-          focusing on frontend more since i liked it.
+          focusing on frontend since i liked it more.
         </div>
       </div>
     </div>
@@ -68,8 +68,8 @@
         <div class="education-title">ELTE University</div>
         <div class="education-type">Computer Science BSc</div>
         <div class="education-description">
-          Studied advanced OOP with Java, and advanced Web Programming with
-          JavaScript.
+          Studied advanced OOP with Java, web programming with JavaScript and
+          algorithms and data structures.
         </div>
       </div>
     </div>
@@ -109,7 +109,7 @@
         <div class="work-type" />
         <div class="work-description" />
       </div>
-      <div class="year" />
+      <div class="year-last" />
       <div class="education">
         <div class="education-title">ELTE University</div>
         <div class="education-type">Computer Science BSc</div>
@@ -137,12 +137,19 @@
     width: 100%;
   }
 
-  .year {
+  .year,
+  .year-last {
     background-color: var(--color-accent);
     width: 14px;
     margin: 0 20px;
     position: relative;
     height: 200px;
+  }
+
+  .year-last {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 160px;
   }
 
   .work-description,
