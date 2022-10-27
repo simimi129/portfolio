@@ -1,10 +1,10 @@
 <script>
-  import Panel from "./lib/Panel.svelte";
+  import Main from "./lib/Main.svelte";
 </script>
 
 <main class="main">
   <div class="bg" />
-  <Panel />
+  <Main />
 </main>
 
 <style>

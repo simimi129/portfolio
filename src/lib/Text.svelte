@@ -1,14 +1,14 @@
 <div class="texts">
   <p>
-    Hello! My name is Simon. I'm a CS student and software engineer. I love
-    programming, problem solving, and learning new and modern technologies. I'm
-    also a team player, and find it very important to learn from and teach
-    others.
+    Hello! My name is Simon. I'm a computer science student and software
+    engineer. I love programming, problem solving, and studying new and modern
+    technologies. I'm also a team player, and find it very important to learn
+    from and teach others, communication is key.
   </p>
   <p>
     I can design and develop maintainable and scalable web and mobile
-    applications using design patterns. I'm passionate about writing readable,
-    modular and clean code.
+    applications. I'm passionate about writing readable, modular and clean code.
+    That's why i put a lot of emphasis on refactoring.
   </p>
   <p>
     I strongly believe in documentation as it is fundamental to have a plan of
@@ -26,5 +26,6 @@
     line-height: 1.3;
     font-weight: 300;
     padding: 0 20px;
+    font-size: 1.21rem;
   }
 </style>

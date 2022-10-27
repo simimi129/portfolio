@@ -1,13 +1,19 @@
 <nav class="nav">
   <ul class="nav-links">
-    <li class="nav-link">About</li>
-    <li class="nav-link">Skills</li>
-    <li class="nav-link">Projects</li>
-    <li class="nav-link">Contact</li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#experience" class="nav-link">Experience</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
   </ul>
 </nav>
 
 <style>
+  .nav-link {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
   .nav-links {
     list-style: none;
     display: flex;
@@ -16,7 +22,10 @@
     width: 100%;
     max-width: 1200px;
     padding: 4px 0;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(30px) saturate(100%) contrast(100%) brightness(90%);
+    -webkit-backdrop-filter: blur(30px) saturate(100%) contrast(100%)
+      brightness(90%);
     border-bottom: 1px solid #000;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
