@@ -1,0 +1,30 @@
+<div class="texts">
+  <p>
+    Hello! My name is Simon. I'm a CS student and software engineer. I love
+    programming, problem solving, and learning new and modern technologies. I'm
+    also a team player, and find it very important to learn from and teach
+    others.
+  </p>
+  <p>
+    I can design and develop maintainable and scalable web and mobile
+    applications using design patterns. I'm passionate about writing readable,
+    modular and clean code.
+  </p>
+  <p>
+    I strongly believe in documentation as it is fundamental to have a plan of
+    the software that should be built, especially in a team. No one ever built a
+    long-lasting building without a blueprint.
+  </p>
+</div>
+
+<style>
+  .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-weight: 300;
+    margin: 0 20px;
+  }
+</style>
