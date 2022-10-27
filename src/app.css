@@ -1,0 +1,29 @@
+:root {
+  --color-accent: #1674d9;
+  --color-text: #e9e9eb;
+  --color-border: #6f6f6f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+}
+
+body {
+  background-image: url("./assets/bg.webp");
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
