@@ -10,8 +10,8 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-right: 20px;
     font-size: 1rem;
+    padding-right: 20px;
   }
 
   .quote {

@@ -2,6 +2,7 @@
   import Section from "./Section.svelte";
   import Text from "./Text.svelte";
   import Quote from "./Quote.svelte";
+  import Stack from "./Stack.svelte";
 </script>
 
 <div class="window">
@@ -12,6 +13,7 @@
   </div>
   <div class="skills">
     <Section title={"Skills"} />
+    <Stack />
   </div>
 </div>
 
