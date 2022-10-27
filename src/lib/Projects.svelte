@@ -3,7 +3,14 @@
 
   let isSelected = false;
 
-  let project;
+  let project = {
+    title: "Asd",
+    description: "Asdsdsdsdsdsds",
+    stack: ["html5", "css3", "javascript"],
+    imgUrl: "../assets/art.webp",
+    live: "https://tomart.netlify.app",
+    src: "https://github.com/simimi129/simonszabo",
+  };
 
   function toggleProject() {
     isSelected = !isSelected;
@@ -12,7 +19,7 @@
 
 <div class="projects">
   {#if isSelected}
-    <Project {project} />
+    <Project {project} bind:isSelected />
   {:else}
     <div class="row">
       <div class="project" on:click={toggleProject} />

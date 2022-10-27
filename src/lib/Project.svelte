@@ -1,20 +1,29 @@
 <script>
+  export let isSelected;
   export let project;
+
+  let { title, description, stack, imgUrl, live, src } = project;
+
+  function toggleProject() {
+    isSelected = !isSelected;
+  }
 </script>
 
 <div class="project">
-  <div class="img" style="background-image: url({project.imgUrl});" />
+  <div class="img" style="background-image: url({imgUrl});">
+    <div class="back" on:click={toggleProject}>Back</div>
+  </div>
   <div class="text">
-    <div class="title">{project.title}</div>
+    <div class="title">{title}</div>
     <div class="stack">
-      {#each project.stack as item}
-        <i class={item} />
+      {#each stack as item}
+        <i class="devicon-{item}-plain" />
       {/each}
     </div>
-    <div class="description">{project.description}</div>
+    <div class="description">{description}</div>
     <div class="buttons">
-      <a href={project.live}>Live</a>
-      <a href={project.src}>Source</a>
+      <a href={live}>Live</a>
+      <a href={src}>Source</a>
     </div>
   </div>
 </div>
