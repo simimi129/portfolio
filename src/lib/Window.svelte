@@ -5,6 +5,7 @@
   import Stack from "./Stack.svelte";
   import Timeline from "./Timeline.svelte";
   import Projects from "./Projects.svelte";
+  import Contact from "./Contact.svelte";
 </script>
 
 <div class="window">
@@ -27,6 +28,7 @@
   </div>
   <div id="contact" class="contact">
     <Section title={"Contact"} />
+    <Contact />
   </div>
 </div>
 

@@ -1,27 +1,61 @@
-<nav class="nav">
-  <ul class="nav-links">
-    <li><a href="#about" class="nav-link">About</a></li>
-    <li><a href="#skills" class="nav-link">Skills</a></li>
-    <li><a href="#experience" class="nav-link">Experience</a></li>
-    <li><a href="#projects" class="nav-link">Projects</a></li>
-    <li><a href="#contact" class="nav-link">Contact</a></li>
-  </ul>
-</nav>
+<div class="contact">
+  <div class="contact-links">
+    <div class="left">
+      <a
+        href="https://www.linkedin.com/in/simon-szabó-402924238/"
+        target="_blank"
+        class="link"
+      >
+        <ion-icon name="logo-linkedin" class="icon" />
+      </a>
+      <a href="https://github.com/simimi129" target="_blank" class="link"
+        ><ion-icon name="logo-github" class="icon" /></a
+      >
+    </div>
+    <div class="right">
+      <div class="contact-info">
+        <ion-icon name="call-outline" class="icon" />
+        <span>+36306489940</span>
+      </div>
+      <div class="contact-info">
+        <ion-icon name="mail-outline" class="icon" />
+        <span>simimi129@gmail.com</span>
+      </div>
+    </div>
+  </div>
+</div>
 
 <style>
-  .nav-link {
-    color: var(--color-text);
-    text-decoration: none;
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 4px;
   }
 
-  .nav-links {
-    list-style: none;
+  .right {
     display: flex;
-    justify-content: center;
+    align-items: center;
     gap: 20px;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .icon {
+    visibility: visible;
+    color: var(--color-text);
+    font-size: 1.4rem;
+  }
+
+  .contact-links {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     max-width: 1200px;
-    padding: 4px 0;
+    padding: 5px 10px;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(30px) saturate(100%) contrast(100%) brightness(90%);
     -webkit-backdrop-filter: blur(30px) saturate(100%) contrast(100%)
@@ -33,7 +67,7 @@
       inset 0 0 0 1px var(--color-border);
   }
 
-  .nav {
+  .contact {
     position: fixed;
     top: 0;
     left: 0;

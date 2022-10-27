@@ -22,8 +22,8 @@
     </div>
     <div class="description">{description}</div>
     <div class="buttons">
-      <a href={live}>Live</a>
-      <a href={src}>Source</a>
+      <a href={live} target="_blank">Live</a>
+      <a href={src} target="_blank">Source</a>
     </div>
   </div>
 </div>
