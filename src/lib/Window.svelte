@@ -14,25 +14,40 @@
     <Text />
     <Quote />
   </div>
-  <div id="skills" class="skills">
-    <Section title={"Skills"} />
-    <Stack />
-  </div>
-  <div id="experience" class="experience">
-    <Section title={"Experience"} />
-    <Timeline />
-  </div>
-  <div id="projects" class="projects">
-    <Section title={"Projects"} />
-    <Projects />
-  </div>
-  <div id="contact" class="contact">
-    <Section title={"Contact"} />
-    <Contact />
+  <div class="bg">
+    <div id="skills" class="skills">
+      <Section title={"Skills"} />
+      <Stack />
+    </div>
+    <div id="experience" class="experience">
+      <Section title={"Experience"} />
+      <Timeline />
+    </div>
+    <div id="projects" class="projects">
+      <Section title={"Projects"} />
+      <Projects />
+    </div>
+    <div id="contact" class="contact">
+      <Section title={"Contact"} />
+      <Contact />
+    </div>
   </div>
 </div>
 
 <style>
+  .bg {
+    background: linear-gradient(to bottom right, #1a2336, #090d1a);
+    width: calc(100% - 2px);
+    border-top: 1px solid #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 2px;
+  }
+
+  .about {
+    margin-bottom: 50px;
+  }
+
   .about,
   .skills,
   .experience,
@@ -42,10 +57,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 110px;
   }
 
   .window {
-    padding: 20px 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
     border: 1px solid #000;
     border-radius: 12px;
     box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56),

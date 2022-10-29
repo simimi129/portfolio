@@ -25,6 +25,7 @@ html::-webkit-scrollbar {
 
 body {
   background-image: url("./assets/bg.webp");
+  height: 100%;
   width: 100%;
 }
 
