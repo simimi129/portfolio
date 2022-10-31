@@ -61,6 +61,8 @@
   }
 
   .window {
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

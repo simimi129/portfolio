@@ -4,12 +4,12 @@
   let isSelected = false;
 
   let project = {
-    title: "Asd",
-    description: "Asdsdsdsdsdsds",
-    stack: ["html5", "css3", "javascript"],
+    title: "Dashboard",
+    description: "Basic admin dashboard usin React and MaterialUI",
+    stack: ["html5", "css3", "javascript", "react"],
     imgUrl: "../assets/art.webp",
-    live: "https://tomart.netlify.app",
-    src: "https://github.com/simimi129/simonszabo",
+    live: "https://demo-dashboard-react-mui.netlify.app",
+    src: "https://github.com/simimi129/admin-dashboard",
   };
 
   function toggleProject() {
