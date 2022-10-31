@@ -22,6 +22,7 @@
     <Project {project} bind:isSelected />
   {:else}
     <div class="row">
+      <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div class="project" on:click={toggleProject} />
       <div class="project" />
       <div class="project" />
