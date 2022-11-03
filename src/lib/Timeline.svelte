@@ -23,8 +23,8 @@
         <div class="education-title">Self-Education</div>
         <div class="education-type">Software Architecure</div>
         <div class="education-description">
-          Currently learning design patterns, software architecture and iOS
-          application development with Swift and SwiftUI.
+          Currently learning design patterns, software architecture and
+          practicing my React skills with serverless firebase and node.
         </div>
       </div>
     </div>
@@ -46,9 +46,9 @@
         <div class="education-title">Self-Education</div>
         <div class="education-type">Full-stack Development</div>
         <div class="education-description">
-          Studied component-based frontend frameworks: Svelte, React, Angular
-          and Node.js for backend. I used MongoDB for database. Also Git. I was
-          focusing on frontend since i liked it more.
+          Studied component-based frontend frameworks: Svelte, React and Node.js
+          for backend. I used MongoDB for database. Also Git. I was focusing on
+          frontend since i liked it more.
         </div>
       </div>
     </div>

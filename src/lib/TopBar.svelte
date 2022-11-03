@@ -64,11 +64,9 @@
     backdrop-filter: blur(30px) saturate(100%) contrast(100%) brightness(90%);
     -webkit-backdrop-filter: blur(30px) saturate(100%) contrast(100%)
       brightness(90%);
-    border-bottom: 1px solid #000;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56),
-      inset 0 0 0 1px var(--color-border);
+    box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
   }
 
   .contact {

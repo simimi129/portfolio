@@ -50,11 +50,12 @@
   }
 
   .img {
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .button {

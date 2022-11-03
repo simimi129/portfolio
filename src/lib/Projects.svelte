@@ -17,6 +17,12 @@
         <ProjectThumbnail bind:project {item} bind:isSelected />
       {/each}
     </div>
+    <div class="row">
+      <div class="type">Astro + Svelte</div>
+      {#each projects.astro as item}
+        <ProjectThumbnail bind:project {item} bind:isSelected />
+      {/each}
+    </div>
   {/if}
 </div>
 
@@ -31,6 +37,7 @@
   .row {
     position: relative;
     display: flex;
+    justify-content: center;
     gap: 20px;
     width: 100%;
     padding: 50px 20px;

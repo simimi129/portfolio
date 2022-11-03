@@ -1,5 +1,5 @@
 <div class="hero">
-  <h1 class="name">Simon Szabo</h1>
+  <h1 class="name">Simon Szabó</h1>
   <h2 class="title">Portfolio</h2>
 </div>
 
@@ -21,5 +21,6 @@
   .hero {
     margin-top: 100px;
     margin-bottom: 80px;
+    text-align: center;
   }
 </style>

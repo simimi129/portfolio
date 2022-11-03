@@ -1,8 +1,8 @@
 <div class="texts">
   <p>
     Hello! My name is Simon. I'm a computer science student and software
-    engineer. I love programming, problem solving, and studying new and modern
-    technologies.
+    engineer. I love programming, problem solving, and always open to learning
+    new and modern technologies.
   </p>
   <p>
     I can design and develop maintainable and scalable web and mobile

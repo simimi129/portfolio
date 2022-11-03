@@ -55,8 +55,8 @@
     height: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(5px) saturate(100%) contrast(100%) brightness(90%);
-    -webkit-backdrop-filter: blur(5px) saturate(100%) contrast(100%)
+    backdrop-filter: blur(20px) saturate(100%) contrast(100%) brightness(90%);
+    -webkit-backdrop-filter: blur(20px) saturate(100%) contrast(100%)
       brightness(90%);
   }
 

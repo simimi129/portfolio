@@ -29,7 +29,7 @@
   }
 
   .project:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
   }
 </style>

@@ -14,16 +14,16 @@
         <span>JavaScript</span>
       </div>
       <div class="stack-item">
-        <i class="devicon-svelte-plain" />
-        <span>Svelte</span>
-      </div>
-      <div class="stack-item">
         <i class="devicon-react-plain" />
         <span>React</span>
       </div>
       <div class="stack-item">
         <i class="devicon-angularjs-plain" />
         <span>Angular</span>
+      </div>
+      <div class="stack-item">
+        <i class="devicon-svelte-plain" />
+        <span>Svelte</span>
       </div>
       <div class="stack-item">
         <i class="devicon-nodejs-plain" />
@@ -36,10 +36,6 @@
       <div class="stack-item">
         <i class="devicon-java-plain" />
         <span>Java</span>
-      </div>
-      <div class="stack-item">
-        <i class="devicon-spring-plain" />
-        <span>Spring</span>
       </div>
       <div class="stack-item">
         <i class="devicon-git-plain" />
