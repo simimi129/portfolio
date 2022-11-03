@@ -16,12 +16,9 @@
     <Quote />
   </div>
   <div class="bg">
-    <div id="skills" class="skills">
-      <Section title={"Skills"} />
-      <Stack />
-    </div>
     <div id="experience" class="experience">
       <Section title={"Experience"} />
+      <Stack />
       <Timeline />
     </div>
     <div id="projects" class="projects">
@@ -78,11 +75,17 @@
     border-radius: 20px;
   }
 
-  .about,
-  .skills,
-  .experience,
-  .projects,
   .contact {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 110px 60px 110px;
+  }
+
+  .about,
+  .experience,
+  .projects {
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;

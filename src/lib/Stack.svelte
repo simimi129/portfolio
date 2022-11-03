@@ -51,11 +51,12 @@
 
 <style>
   .stack-item span {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--color-text2);
   }
 
   .stack-item {
+    font-size: 2.6rem;
     gap: 10px;
     display: flex;
     flex-direction: column;
@@ -64,7 +65,6 @@
   }
 
   .stack-items {
-    font-size: 2.2rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -80,7 +80,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 20px;
+    margin-bottom: 40px;
     gap: 40px;
   }
 </style>
