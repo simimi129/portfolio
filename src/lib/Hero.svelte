@@ -4,21 +4,22 @@
 </div>
 
 <style>
-  .title {
-    font-family: "Gruppo", cursive;
-  }
-
   .name {
     font-family: "Cormorant", serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 300;
+    font-size: 5.5rem;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 4rem;
+    color: var(--color-text2);
   }
 
   .hero {
-    margin-top: 120px;
-    margin-bottom: 120px;
-    text-align: center;
-    font-size: 2rem;
+    margin-top: 100px;
+    margin-bottom: 80px;
   }
 </style>

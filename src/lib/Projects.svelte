@@ -1,20 +1,10 @@
 <script>
+  import { projects } from "./../data/projects.js";
+  import ProjectThumbnail from "./ProjectThumbnail.svelte";
   import Project from "./Project.svelte";
 
-  let isSelected = false;
-
-  let project = {
-    title: "Dashboard",
-    description: "Basic admin dashboard usin React and MaterialUI",
-    stack: ["html5", "css3", "javascript", "react"],
-    imgUrl: "../assets/art.webp",
-    live: "https://demo-dashboard-react-mui.netlify.app",
-    src: "https://github.com/simimi129/admin-dashboard",
-  };
-
-  function toggleProject() {
-    isSelected = !isSelected;
-  }
+  let isSelected;
+  let project;
 </script>
 
 <div class="projects">
@@ -22,50 +12,34 @@
     <Project {project} bind:isSelected />
   {:else}
     <div class="row">
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <div class="project" on:click={toggleProject} />
-      <div class="project" />
-      <div class="project" />
-      <div class="project" />
-    </div>
-    <div class="row">
-      <div class="project" />
-      <div class="project" />
-      <div class="project" />
-      <div class="project" />
-    </div>
-    <div class="row">
-      <div class="project" />
-      <div class="project" />
-      <div class="project" />
-      <div class="project" />
+      <div class="type">React</div>
+      {#each projects.react as item}
+        <ProjectThumbnail bind:project {item} bind:isSelected />
+      {/each}
     </div>
   {/if}
 </div>
 
 <style>
-  .project {
-    width: 222px;
-    height: 222px;
-    border-radius: 10px;
-    transition: all 0.2s ease-out;
-    background-color: gray;
-  }
-
-  .project:hover {
-    transform: scale(1.2);
-    box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
+  .type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.8rem;
   }
 
   .row {
+    position: relative;
     display: flex;
-    gap: 12px;
+    gap: 20px;
+    width: 100%;
+    padding: 50px 20px;
   }
 
   .projects {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    height: 690px;
+    width: 100%;
+    padding: 0 20px;
   }
 </style>

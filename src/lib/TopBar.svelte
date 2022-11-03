@@ -4,12 +4,16 @@
       <a
         href="https://www.linkedin.com/in/simon-szabó-402924238/"
         target="_blank"
+        rel="noreferrer"
         class="link"
       >
         <ion-icon name="logo-linkedin" class="icon" />
       </a>
-      <a href="https://github.com/simimi129" target="_blank" class="link"
-        ><ion-icon name="logo-github" class="icon" /></a
+      <a
+        href="https://github.com/simimi129"
+        target="_blank"
+        rel="noreferrer"
+        class="link"><ion-icon name="logo-github" class="icon" /></a
       >
     </div>
     <div class="right">
@@ -46,8 +50,8 @@
 
   .icon {
     visibility: visible;
-    color: var(--color-text);
-    font-size: 1.4rem;
+    color: var(--color-accent);
+    font-size: 1.6rem;
   }
 
   .contact-links {
@@ -55,7 +59,7 @@
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
-    padding: 5px 10px;
+    padding: 0 8px;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(30px) saturate(100%) contrast(100%) brightness(90%);
     -webkit-backdrop-filter: blur(30px) saturate(100%) contrast(100%)
@@ -75,5 +79,7 @@
     display: flex;
     justify-content: center;
     z-index: 1;
+    height: 40px;
+    padding: 0 20px;
   }
 </style>

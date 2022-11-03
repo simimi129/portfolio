@@ -158,6 +158,7 @@
   .work-type,
   .education-type {
     margin-bottom: 6px;
+    color: var(--color-text2);
   }
 
   .work-title,

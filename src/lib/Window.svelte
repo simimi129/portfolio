@@ -10,6 +10,7 @@
 
 <div class="window">
   <div id="about" class="about">
+    <div class="bg-img" />
     <Section title={"About"} />
     <Text />
     <Quote />
@@ -35,17 +36,46 @@
 </div>
 
 <style>
+  .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/bg.webp");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    border-radius: 20px;
+  }
+
+  .bg-img::after {
+    content: "";
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px) saturate(100%) contrast(100%) brightness(90%);
+    -webkit-backdrop-filter: blur(5px) saturate(100%) contrast(100%)
+      brightness(90%);
+  }
+
   .bg {
-    background: linear-gradient(to bottom right, #1a2336, #090d1a);
     width: calc(100% - 2px);
     border-top: 1px solid #000;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-bottom: 2px;
+    border-radius: 20px;
   }
 
   .about {
-    margin-bottom: 50px;
+    position: relative;
+    margin-bottom: 60px;
+    border-radius: 20px;
   }
 
   .about,
@@ -57,23 +87,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 110px;
+    padding: 60px 110px;
   }
 
   .window {
-    max-width: 1200px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
-    border: 1px solid #000;
+    padding: 20px 0;
     border-radius: 12px;
-    box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56),
-      inset 0 0 0 1px var(--color-border);
-    background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(30px) saturate(100%) contrast(100%) brightness(90%);
-    -webkit-backdrop-filter: blur(30px) saturate(100%) contrast(100%)
-      brightness(90%);
   }
 </style>

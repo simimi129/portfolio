@@ -1,11 +1,11 @@
 <script>
-  import Navigation from "./Navigation.svelte";
   import Hero from "./Hero.svelte";
   import Window from "./Window.svelte";
+  import TopBar from "./TopBar.svelte";
 </script>
 
 <div class="panel">
-  <Navigation />
+  <TopBar />
   <Hero />
   <Window />
 </div>
@@ -14,7 +14,8 @@
   .panel {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1240px;
+    padding: 0 20px;
     width: 100%;
   }
 </style>

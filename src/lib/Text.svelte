@@ -2,18 +2,17 @@
   <p>
     Hello! My name is Simon. I'm a computer science student and software
     engineer. I love programming, problem solving, and studying new and modern
-    technologies. I'm also a team player, and find it very important to learn
-    from and teach others.
+    technologies.
   </p>
   <p>
     I can design and develop maintainable and scalable web and mobile
-    applications. I'm passionate about writing readable, modular and clean code.
-    That's why i put a lot of emphasis on refactoring.
+    applications. I'm passionate about writing readable and clean code. That's
+    why i put a lot of emphasis on refactoring.
   </p>
   <p>
     I strongly believe in documentation as it is fundamental to have a plan of
-    the software that should be built, especially in a team. No one ever built a
-    long-lasting building without a blueprint.
+    the software that should be built, especially in a team. I'm also a team
+    player, and find it very important to learn from and teach others.
   </p>
 </div>
 

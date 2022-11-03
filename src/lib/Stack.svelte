@@ -52,6 +52,7 @@
 <style>
   .stack-item span {
     font-size: 0.7rem;
+    color: var(--color-text2);
   }
 
   .stack-item {
