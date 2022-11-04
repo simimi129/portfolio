@@ -9,7 +9,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 300;
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
 
   .title {

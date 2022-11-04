@@ -30,12 +30,24 @@
         <span>Node.js</span>
       </div>
       <div class="stack-item">
-        <i class="devicon-swift-plain" />
-        <span>Swift</span>
+        <i class="devicon-go-original-wordmark" />
+        <span>Go</span>
       </div>
       <div class="stack-item">
         <i class="devicon-java-plain" />
         <span>Java</span>
+      </div>
+      <div class="stack-item">
+        <i class="devicon-firebase-plain" />
+        <span>Firebase</span>
+      </div>
+      <div class="stack-item">
+        <i class="devicon-postgresql-plain" />
+        <span>PostgreSQL</span>
+      </div>
+      <div class="stack-item">
+        <i class="devicon-swift-plain" />
+        <span>Swift</span>
       </div>
       <div class="stack-item">
         <i class="devicon-git-plain" />
@@ -47,12 +59,12 @@
 
 <style>
   .stack-item span {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--color-text2);
   }
 
   .stack-item {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     gap: 10px;
     display: flex;
     flex-direction: column;
