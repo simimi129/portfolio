@@ -14,9 +14,7 @@
       <div class="work">
         <div class="work-title">Capture.europe</div>
         <div class="work-type">Full-stack web developer</div>
-        <div class="work-description">
-          Java backend, Angular frontend, Oracle and PostgreSQL database
-        </div>
+        <div class="work-description">Java, Angular, Oracle, PostgreSQL</div>
       </div>
       <div class="year" />
       <div class="education">
@@ -39,7 +37,7 @@
       <div class="work">
         <div class="work-title">Oracle</div>
         <div class="work-type">Frontend Developer</div>
-        <div class="work-description">Preact frontend</div>
+        <div class="work-description">Preact</div>
       </div>
       <div class="year" />
       <div class="education">
@@ -79,11 +77,7 @@
       <div class="education-year">- 2020</div>
     </div>
     <div class="time-body">
-      <div class="work">
-        <div class="work-title" />
-        <div class="work-type" />
-        <div class="work-description" />
-      </div>
+      <div class="work" />
       <div class="year" />
       <div class="education">
         <div class="education-title">ELTE University</div>
@@ -102,11 +96,7 @@
       <div class="education-year">- 2019</div>
     </div>
     <div class="time-body">
-      <div class="work">
-        <div class="work-title" />
-        <div class="work-type" />
-        <div class="work-description" />
-      </div>
+      <div class="work" />
       <div class="year-last" />
       <div class="education">
         <div class="education-title">ELTE University</div>
@@ -181,6 +171,7 @@
   .work-year,
   .education-year {
     min-width: 52px;
+    color: var(--color-accent);
   }
 
   .time-header {
@@ -200,6 +191,7 @@
 
   .header-title {
     min-width: 200px;
+    text-decoration: underline;
   }
 
   .header-title:first-child {
