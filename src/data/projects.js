@@ -6,6 +6,14 @@ import schbauImg from "../assets/schbau.png";
 export const projects = {
   react: [
     {
+      title: "Crypto Currencies",
+      description: "App to show different info about crypro currencies.",
+      stack: ["html5", "css3", "javascript", "react"],
+      imgUrl: salaryGuideImg,
+      live: "https://demo-cryptocurr.netlify.app/",
+      src: "https://github.com/simimi129/crypto-app",
+    },
+    {
       title: "Dashboard",
       description: "Basic admin dashboard using React and MaterialUI",
       stack: ["html5", "css3", "javascript", "react"],
