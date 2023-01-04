@@ -22,6 +22,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000;
+    background: linear-gradient(to bottom right, rgb(0, 0, 24), rgb(0, 0, 0));
   }
 </style>
